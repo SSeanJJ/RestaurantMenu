@@ -21,7 +21,3 @@ Yuliana's Taqueria is a fictional Mexican restaurant menu page where users can b
 
 - HTML
 - CSS
-
-## Course
-
-Built as the final project for the [Codédex](https://www.codedex.io) HTML course.

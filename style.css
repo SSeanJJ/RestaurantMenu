@@ -5,13 +5,19 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  font-family: playfair display, serif;
+  color: white;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1640292216981-bdfeed3fdffd?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .container {
@@ -25,6 +31,8 @@ img {
   height: 120px;
   border-radius: 50%;
   margin-bottom: 20px;
+  padding: 5px;
+  background-color: white;
 }
 
 h1 {
@@ -97,6 +105,9 @@ nav ol {
 footer {
   margin-top: 30px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: cursive, sans-serif;
 }
 
+nav a:hover {
+  background-color: red;
+}
